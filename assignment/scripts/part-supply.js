@@ -122,13 +122,12 @@ console.log('9. Filling boxes with a "while" loop');
 let parts = 572;
 let boxesFilled = 0;
 while (parts > 6 ){
-  parts - 7;
-  boxesFilled = parts / 7;
-  parts = parts % 7;
+  parts -= 7;
+  boxesFilled ++;
 }
 console.log(parts);
 console.log(boxesFilled);
-//i know i didn't do this right
+
 
 
 
