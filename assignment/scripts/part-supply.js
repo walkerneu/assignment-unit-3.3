@@ -78,17 +78,7 @@ console.log('7. Looping through supplyChanges to populate more arrays with posit
 let stretchPositives = [];
 let stretchNegatives = [];
 let stretchZeroes = [];
-for (let num = supplyChanges; num > -7; num++){
-  if (num > 0){
-    stretchPositives.push(num);
-  }
-  if (num < 0){
-    stretchNegatives.push(num);
-  }
-  if (num === 0){
-    stretchZeroes.push(num);
-  }
-}
+
 console.log(stretchPositives);
 console.log(stretchNegatives);
 console.log(stretchZeroes);
@@ -121,10 +111,8 @@ console.log('9. Filling boxes with a "while" loop');
 let parts = 572;
 let boxesFilled = 0;
 while(parts > 6){
-    parts - 7
-    parts++
+
 }
-console.log(parts);
 
 
 
